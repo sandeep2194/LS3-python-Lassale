@@ -20,3 +20,11 @@ print('\n Change increment to have different resutls ')
 while(x<=100):
   print('+++++++ {0}\t+++++++'.format(x))
   x+=5
+
+
+print('while loop with break statement.')
+x=0
+while True:
+    print(x)
+    x+=1
+    break
