@@ -23,6 +23,8 @@ def get_time():
 
 def my_function():
     print ('hello world')
+def func():
+    print('new function from mod1')
 
 
 
