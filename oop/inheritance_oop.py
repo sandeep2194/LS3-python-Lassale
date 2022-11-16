@@ -24,6 +24,7 @@ class Teacher(Person):
   def promote(self,percentage):
     self.teacher_rate=(1+percentage)*self.teacher_rate
 
+
 p = Person("John", "Doe")
 p.printname() 
 teacher_list=['420-SL3-AS','420-EL2-AS','420-JV4-AS']
@@ -35,5 +36,24 @@ leo.promote(.25)
 print(leo.calculate_salary(20000))
 stepto.promote(.2)
 print(stepto.calculate_salary(20000))
+
+
+def start_game(level:int,name:str,players:int,online:bool)-> None:
+      '''
+        document for a start_gamme (doc)
+        this mehtod will start the game easily 
+      '''
+      print(f'game has been started\nlevel={level}\nname:{name}')
+      print(f'\nplayers:{players}\nonline:{online}')    
+
+
+
+
+
+
+start_game()
+
+
+
 
 
